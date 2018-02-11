@@ -1,0 +1,4 @@
+spring.application.name: greet123
+security:
+  basic:
+    enabled: false
