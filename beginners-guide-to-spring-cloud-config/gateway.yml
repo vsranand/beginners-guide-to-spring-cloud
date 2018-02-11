@@ -3,14 +3,14 @@ spring:
     gateway:
       routes:
       - id: nameRoot
-        uri: lb://name
+        uri: lb://name123
         predicates:
-        - Path=/name/**
+        - Path=/name123/**
         filters:
         - RewritePath=/name(?<segment>.*), $\{segment}
       - id: greeting
-        uri: lb://greeting
+        uri: lb://greet123
         predicates:
-        - Path=/greeting/**
+        - Path=/greet123/**
         filters:
         - RewritePath=/greeting(?<segment>.*), $\{segment}

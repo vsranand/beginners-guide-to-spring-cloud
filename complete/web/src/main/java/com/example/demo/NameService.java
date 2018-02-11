@@ -20,7 +20,7 @@ public class NameService {
 		return nameFeignClient.getName();
 	}
 
-	@FeignClient("name")
+	@FeignClient("name123")
 	static interface NameFeignClient {
 		@RequestMapping("/")
 		public String getName();

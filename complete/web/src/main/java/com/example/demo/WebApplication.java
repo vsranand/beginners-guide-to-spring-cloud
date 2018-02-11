@@ -39,7 +39,7 @@ public class WebApplication {
 
 	}
 
-	@FeignClient("name")
+	@FeignClient("name123")
 	static interface NameService {
 		@RequestMapping("/")
 		public String getName();
