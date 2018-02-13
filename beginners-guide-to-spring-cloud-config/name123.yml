@@ -1,7 +1,7 @@
 server:
   port: 8080
   
-name: Ryan
+name: Peter
 names:
   - Baxter
   - Dave
